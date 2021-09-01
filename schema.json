@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" }, 
+    "children": { 
+      "type": "array",
+      "items": {
+        "type": "object",
+        "name": { "type": "string" }, 
+        "children": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "name": { "type": "string" },
+            "children": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "name": { "type": "string" },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "name": { "type": "string" },
+                    "children": {
+                      "type": "object",
+                      "name": { "type": "string" },
+                      "Total people stated": { "type": "number" },
+                      "Median income": { "type": "number" },
+                      "Mean income": { "type": "number" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{"PacificEmployment":
+  [
+    {"locationType":"National","location":"New Zealand","major":"Managers","minor":"Chief Executives, General Managers and Legislators","occupation":"Chief Executive or Managing Director","ethnicity":"Pacific Peoples","total":"930","median":"62800","mean":"75900"},
+    {"locationType":"National","location":"New Zealand","major":"Managers","minor":"Chief Executives, General Managers and Legislators","occupation":"Corporate General Manager","ethnicity":"Pacific Peoples","total":"939","median":"67600","mean":"80400"},
+    {"locationType":"TA","location":"New Zealand","major":"Managers","minor":"Chief Executives, General Managers and Legislators","occupation":"Defence Force Senior Officer","ethnicity":"Pacific Peoples","total":"6","median":"63900","mean":"62000"},
+    {"locationType":"Region","location":"New Zealand","major":"Managers","minor":"Chief Executives, General Managers and Legislators","occupation":"Local Government Legislator","ethnicity":"Pacific Peoples","total":"27","median":"50100","mean":"58500"},
+    {"locationType":"National","location":"New Zealand","major":"Managers","minor":"Chief Executives, General Managers and Legislators","occupation":"Member of Parliament","ethnicity":"Pacific Peoples","total":"9","median":"150000","mean":"167800"},
+    {"locationType":"National","location":"New Zealand","major":"Managers","minor":"Chief Executives, General Managers and Legislators","occupation":"Legislators nec","ethnicity":"Pacific Peoples","total":"0","median":"..C","mean":"..C"}
+  ]
+}
