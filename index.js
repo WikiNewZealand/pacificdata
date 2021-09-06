@@ -108,9 +108,7 @@ var loc = null;
   var hasAus = occupation.name.indexOf('(Aus)')
   if (hasAus !== -1) {
     // false, aus exists
-    console.log(occupation.name + hasAus)
     occupation.name = occupation.name.slice((hasAus + 8), (occupation.name.length - 5))
-    console.log(occupation.name)
   }
   
   if (isNaN(parseInt(pacificData[i].median))) {
@@ -130,10 +128,10 @@ var loc = null;
   minor.children.push(occupation)
 }
 
-// fs.writeFile('nested.json', JSON.stringify(outputObj), function (err){
-//   if (err) return console.log(err);
-//   console.log('outputObj > nested.json');
-// })
+fs.writeFile('nested.json', JSON.stringify(outputObj), function (err){
+  if (err) return console.log(err);
+  console.log('outputObj > nested.json');
+})
 
 // fs.writeFile('nestedsample.json', JSON.stringify(outputObj.children[0].children[0]), function (err){
 //   if (err) return console.log(err);
