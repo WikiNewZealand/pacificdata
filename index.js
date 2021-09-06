@@ -105,6 +105,14 @@ var loc = null;
     total: parseInt(pacificData[i].total)
   }
   
+  var hasAus = occupation.name.indexOf('(Aus)')
+  if (hasAus !== -1) {
+    // false, aus exists
+    console.log(occupation.name + hasAus)
+    occupation.name = occupation.name.slice((hasAus + 8), (occupation.name.length - 5))
+    console.log(occupation.name)
+  }
+  
   if (isNaN(parseInt(pacificData[i].median))) {
     occupation.median = pacificData[i].median
   }
@@ -135,17 +143,8 @@ var loc = null;
 // console.log(outputObj.children[3])
 // console.log(outputObj.children[0].children[0].children[0].children[0])
 
-// map through outputObj.children and get an array of all the name properties
-
-const locTypes = outputObj.children.map( x => x.name)
-// console.log(locTypes)
-
-// given an array of objects, find the object with the key value pair name: locTyoe
 
 
 
-// labels. Can't find parent element length because it's a svg polygon and I'm not that good at math.
-// instead, let's define a maximum character length before we start a newline.
-// check if string length is longer than 35 chars
-// if not, leave as is.
-// if it is, take a slice of 0,32 and append a ...
+
+
